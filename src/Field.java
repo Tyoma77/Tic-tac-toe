@@ -3,7 +3,19 @@
  * класс поле игры
  */
 public class Field {
-    String[][] field = new String[3][3];
+
+    public Field() {
+    }
+
+    public static String[][] field = new String[3][3];
+
+    public static String[][] getField() {
+        return field;
+    }
+
+    public static void setField(String[][] field) {
+        Field.field = field;
+    }
 
     public void fieldInitialize(){
         for (int i = 0; i < field.length; i++) {
@@ -14,7 +26,7 @@ public class Field {
     }
 
     public void fieldPrint() {
-        System.out.print("  1 2 3");
+        System.out.print("  A B C");
         System.out.println();
         for (int i = 0; i < field.length; i++) {
             System.out.print(i+1 + " ");
