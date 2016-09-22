@@ -1,7 +1,5 @@
 package model;
 
-import java.io.IOException;
-
 /**
  * Created by Artem on 20.09.2016.
  * Главный класс для запуска игры
@@ -18,9 +16,9 @@ public class Game {
 //        model.Player p2 = new model.Player();
 //        p2.playerInitialize();
 //
-//        model.Field field = new model.Field();
-//        field.fieldInitialize();
-//        field.fieldPrint();
+        model.Field field = new model.Field();
+        field.fieldInitialize();
+        field.fieldPrint();
 //
 ////        while (true) {
 //            p1.playerTurn();
