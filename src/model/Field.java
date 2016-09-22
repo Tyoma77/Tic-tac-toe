@@ -1,3 +1,5 @@
+package model;
+
 /**
  * Created by artem on 20.09.2016.
  * класс поле игры

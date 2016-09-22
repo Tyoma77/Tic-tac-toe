@@ -1,3 +1,5 @@
+package model;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -63,7 +65,7 @@ public class Player {
             System.out.println(nameList.get(0) + ", your turn");
             System.out.println("Enter where to put your \"0\". (Example A1, B2)");
             String sCell = reader.readLine();
-            int x = Integer.parseInt(sCell.substring(2,2))
+            int x = Integer.parseInt(sCell.substring(2,2));
             String[][] nField = new String[3][3];
             nField = Field.field.clone();
 //            nField[cell[0]][cell[1]]
