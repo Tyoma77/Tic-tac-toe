@@ -7,7 +7,7 @@ import java.io.IOException;
  * Главный класс для запуска игры
  */
 public class Game {
-//    public static void main(String[] args) throws IOException {
+    public static void start(){
 //        System.out.println("Welcome to the tic tac toe game");
 //
 //        System.out.println("Enter Player1 name");
@@ -29,6 +29,6 @@ public class Game {
 ////            p2.playerTurn();
 ////            p1.playerWin();
 ////        }
-//    }
+   }
 
 }
