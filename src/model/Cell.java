@@ -4,11 +4,20 @@ package model;
  * Created by artem on 22.09.2016.
  */
 public class Cell {
-    public Cell(){
+
+    public Cell() {
 
     }
+
     private int x;
     private int y;
+
+    public Cell(int y, int x) {
+        this.y = y;
+        this.x = x;
+    }
+
+//    Проверка занята ли кнопка
     public boolean isBusy() {
         if (Field.field[x][y].equals("-"))
             return false;
@@ -32,9 +41,11 @@ public class Cell {
         this.y = y;
     }
 
-    public void makeShoot(){
+    public void makeShoot() {
         Cell cell = new Cell();
 //        cell.setX();
 //        cell.setY();
     }
+
+
 }
